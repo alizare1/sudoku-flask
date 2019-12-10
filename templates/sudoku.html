@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/scripts.js') }}"></script>
+</head>
+
+<body>
+
+
+    <table border="1">
+        <tr class="r1">
+            <td id="0" onclick="addVal()" class="bg-gray"></td>
+            <td id="1" onclick="addVal()" class="bg-gray"></td>
+            <td id="2" onclick="addVal()" class="bg-gray"></td>
+            <td id="3" onclick="addVal()"></td>
+            <td id="4" onclick="addVal()"></td>
+            <td id="5" onclick="addVal()"></td>
+            <td id="6" onclick="addVal()" class="bg-gray"></td>
+            <td id="7" onclick="addVal()" class="bg-gray"></td>
+            <td id="8" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        <tr class="r2">
+            <td id="9" onclick="addVal()" class="bg-gray"></td>
+            <td id="10" onclick="addVal()" class="bg-gray"></td>
+            <td id="11" onclick="addVal()" class="bg-gray"></td>
+            <td id="12" onclick="addVal()"></td>
+            <td id="13" onclick="addVal()"></td>
+            <td id="14" onclick="addVal()"></td>
+            <td id="15" onclick="addVal()" class="bg-gray"></td>
+            <td id="16" onclick="addVal()" class="bg-gray"></td>
+            <td id="17" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        <tr class="r3">
+            <td id="18" onclick="addVal()" class="bg-gray"></td>
+            <td id="19" onclick="addVal()" class="bg-gray"></td>
+            <td id="20" onclick="addVal()" class="bg-gray"></td>
+            <td id="21" onclick="addVal()"></td>
+            <td id="22" onclick="addVal()"></td>
+            <td id="23" onclick="addVal()"></td>
+            <td id="24" onclick="addVal()" class="bg-gray"></td>
+            <td id="25" onclick="addVal()" class="bg-gray"></td>
+            <td id="26" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        <tr class="r4">
+            <td id="27" onclick="addVal()"></td>
+            <td id="28" onclick="addVal()"></td>
+            <td id="29" onclick="addVal()"></td>
+            <td id="30" onclick="addVal()" class="bg-gray"></td>
+            <td id="31" onclick="addVal()" class="bg-gray"></td>
+            <td id="32" onclick="addVal()" class="bg-gray"></td>
+            <td id="33" onclick="addVal()"></td>
+            <td id="34" onclick="addVal()"></td>
+            <td id="35" onclick="addVal()"></td>
+        </tr>
+        <tr class="r5">
+            <td id="36" onclick="addVal()"></td>
+            <td id="37" onclick="addVal()"></td>
+            <td id="38" onclick="addVal()"></td>
+            <td id="39" onclick="addVal()" class="bg-gray"></td>
+            <td id="40" onclick="addVal()" class="bg-gray"></td>
+            <td id="41" onclick="addVal()" class="bg-gray"></td>
+            <td id="42" onclick="addVal()"></td>
+            <td id="43" onclick="addVal()"></td>
+            <td id="44" onclick="addVal()"></td>
+        </tr>
+        <tr class="r6">
+            <td id="45" onclick="addVal()"></td>
+            <td id="46" onclick="addVal()"></td>
+            <td id="47" onclick="addVal()"></td>
+            <td id="48" onclick="addVal()" class="bg-gray"></td>
+            <td id="49" onclick="addVal()" class="bg-gray"></td>
+            <td id="50" onclick="addVal()" class="bg-gray"></td>
+            <td id="51" onclick="addVal()"></td>
+            <td id="52" onclick="addVal()"></td>
+            <td id="53" onclick="addVal()"></td>
+        </tr>
+        <tr class="r7">
+            <td id="54" onclick="addVal()" class="bg-gray"></td>
+            <td id="55" onclick="addVal()" class="bg-gray"></td>
+            <td id="56" onclick="addVal()" class="bg-gray"></td>
+            <td id="57" onclick="addVal()"></td>
+            <td id="58" onclick="addVal()"></td>
+            <td id="59" onclick="addVal()"></td>
+            <td id="60" onclick="addVal()" class="bg-gray"></td>
+            <td id="61" onclick="addVal()" class="bg-gray"></td>
+            <td id="62" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        <tr class="r8">
+            <td id="63" onclick="addVal()" class="bg-gray"></td>
+            <td id="64" onclick="addVal()" class="bg-gray"></td>
+            <td id="65" onclick="addVal()" class="bg-gray"></td>
+            <td id="66" onclick="addVal()"></td>
+            <td id="67" onclick="addVal()"></td>
+            <td id="68" onclick="addVal()"></td>
+            <td id="69" onclick="addVal()" class="bg-gray"></td>
+            <td id="70" onclick="addVal()" class="bg-gray"></td>
+            <td id="71" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        <tr class="r9">
+            <td id="72" onclick="addVal()" class="bg-gray"></td>
+            <td id="73" onclick="addVal()" class="bg-gray"></td>
+            <td id="74" onclick="addVal()" class="bg-gray"></td>
+            <td id="75" onclick="addVal()"></td>
+            <td id="76" onclick="addVal()"></td>
+            <td id="77" onclick="addVal()"></td>
+            <td id="78" onclick="addVal()" class="bg-gray"></td>
+            <td id="79" onclick="addVal()" class="bg-gray"></td>
+            <td id="80" onclick="addVal()" class="bg-gray"></td>
+        </tr>
+        
+
+    </table>
+
+    <div id="nums">{{load_status}}</div>
+    <p onclick="save()">Save</p>
+
+
+</body>
